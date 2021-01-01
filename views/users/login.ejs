@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <!--FONTES-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+</head>
+<body onload="opacity()">
+    <div id="struct">
+
+        <div class="col-1">
+            <span id="logo">L</span>
+            <form action="/authenticate" method="post">
+              <input type="text" name="usuario" id="usuario" placeholder="Login">
+              <input type="password" name="password" id="password" placeholder="Password">
+              <button type="submit" id="btn-sign">&#8594;</button>
+           </form>
+           <div class="networks">
+               <ul>
+                   <li><i class="fab fa-facebook-f"></i></li>
+                   <li><i class="fab fa-twitter"></i></li>
+                   <li><i class="fab fa-instagram"></i></li>
+                   <li><i class="fab fa-youtube"></i></li>
+               </ul>
+               <ul id="alternate">
+                   <li id="arrow-1">&#8592;</li>
+                   <li>01 / 04</li>
+                   <li id="arrow-2">&#8594;</li>
+               </ul>
+           </div>
+        </div>
+
+        <div class="col-2"> 
+            <nav>
+                <ul>
+                    <li><a href="/login">Home</a></li>
+                    <li><a href="/register">Register</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="menu"><i class="fas fa-bars"></i></button>
+        </div>  
+   
+             
+        <div class="col-3">
+            
+            <ul>
+                <li><img src="img/img-2.jpg" alt=""><span>Abadia</span></li>
+                <li><img src="img/img-5.jpg" alt=""><span>Bridge</span></li>
+                <li><img src="img/img-1.jpg" alt=""><span>Park</span></li>
+                <li><img src="img/img-2.jpg" alt=""><span>Square</span></li>
+                <li><img src="img/img-5.jpg" alt=""><span>Millennium</span></li>
+                <li><img src="img/img-1.jpg" alt=""><span>Hyde</span></li>
+                <li><img src="img/img-2.jpg" alt=""><span>Road</span></li>
+                <li><img src="img/img-5.jpg" alt=""><span>Abbey</span></li>
+                <li><img src="img/img-1.jpg" alt=""><span>Tussauds</span></li>
+                <li><img src="img/img-1.jpg" alt=""><span>Holmes</span></li>
+                <li><img src="img/img-2.jpg" alt=""><span>Monument</span></li>
+                <li><img src="img/img-5.jpg" alt=""><span>Dungeon</span></li>
+                <li><img src="img/img-1.jpg" alt=""><span>Victoria</span></li>
+                <li><img src="img/img-2.jpg" alt=""><span>Rooms</span></li>
+                <li><img src="img/img-5.jpg" alt=""><span>Notting</span></li>
+                <li><img src="img/img-1.jpg" alt=""><span>Camden</span></li>
+                <li><img src="img/img-2.jpg" alt=""><span>Shard</span></li>
+                <li><img src="img/img-5.jpg" alt=""><span>Green</span></li>
+            </ul>
+          
+        </div>
+        <span class="london">LONDON</span>
+        <span class="london-city">Discover Natural Beauty <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspVisit City of London</span>
+    </div>
+
+
+    <script src="script.js"></script>    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!--Listagem de usuario-->
+<div class="container">
+    <hr>
+    <h2>Usuários</h2>
+    <a href="/register"><button >Criar novo usuário</button></a>
+    <hr>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Email</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+         
+            <% users.forEach(user => {%>
+                <tr>
+                    <td><%= user.id %></td>
+                    <td><%= user.email %></td>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</div>

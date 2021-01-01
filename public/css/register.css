@@ -1,0 +1,42 @@
+.col-1 form #email{
+    background:transparent;
+    border: none;
+    border-bottom: 5px solid white;
+    border-radius: 4px;
+    outline: 0;
+    width: 200px;
+    transition: 0.5s;
+    z-index: 1;
+    color: white;
+    transition: 200ms;
+    margin-top: 20px;
+}
+
+.col-1 form #usuario{
+    background:transparent;
+    border: none;
+    border-bottom: 5px solid white;
+    border-radius: 4px;
+    outline: 0;
+    width: 100px;
+    transition: 0.5s;
+    z-index: 1;
+    color: white;
+    transition: 200ms;
+
+}
+.col-1 form #email:focus{
+    border-bottom: 5px solid  #222b3c;
+}
+.col-1 form  #btn-sign{
+    top: 70px;
+    z-index: 1;
+}
+.col-1 form  #btn-sign:active{
+    transform: scale(0.9)
+}
+
+.col-1 form #password{
+    margin-top: 40px;    
+
+}
